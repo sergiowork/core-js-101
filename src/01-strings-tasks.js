@@ -51,8 +51,9 @@ function getStringLength(value) {
  *   'John','Doe'      => 'Hello, John Doe!'
  *   'Chuck','Norris'  => 'Hello, Chuck Norris!'
  */
-function getStringFromTemplate(firstName, lastName) {
-  return 'Hello,' + ' ' + firstName + ' ' + lastName + '!';
+function getStringFromTemplate(/*firstName, lastName*/) {
+  //return 'Hello,' + ' ' + firstName + ' ' + lastName + '!';
+  throw new Error('Not implemented');
 }
 
 /**
